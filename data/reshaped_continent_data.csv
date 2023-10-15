@@ -1,0 +1,246 @@
+Country,year,gdp
+Africa (Region),1980,no data
+Asia and Pacific,1980,966.343
+Europe,1980,8991.406
+North America,1980,10457.985
+South America,1980,2455.846
+Africa (Region),1981,no data
+Asia and Pacific,1981,1014.653
+Europe,1981,8059.436
+North America,1981,11686.633
+South America,1981,2410.914
+Africa (Region),1982,no data
+Asia and Pacific,1982,968.57
+Europe,1982,7781.135
+North America,1982,11731.442
+South America,1982,1997.967
+Africa (Region),1983,no data
+Asia and Pacific,1983,1010.987
+Europe,1983,7560.86
+North America,1983,12418.412
+South America,1983,1833.66
+Africa (Region),1984,no data
+Asia and Pacific,1984,1053.728
+Europe,1984,7248.599
+North America,1984,13601.14
+South America,1984,1759.648
+Africa (Region),1985,no data
+Asia and Pacific,1985,1054.782
+Europe,1985,7487.701
+North America,1985,14385.174
+South America,1985,1904.075
+Africa (Region),1986,no data
+Asia and Pacific,1986,1316.64
+Europe,1986,10054.496
+North America,1986,14755.961
+South America,1986,2107.458
+Africa (Region),1987,no data
+Asia and Pacific,1987,1534.652
+Europe,1987,12322.439
+North America,1987,15564.767
+South America,1987,2193.205
+Africa (Region),1988,no data
+Asia and Pacific,1988,1798.673
+Europe,1988,13747.118
+North America,1988,16773.882
+South America,1988,2397.639
+Africa (Region),1989,no data
+Asia and Pacific,1989,1836.186
+Europe,1989,no data
+North America,1989,17980.238
+South America,1989,2577.884
+Africa (Region),1990,1084.136
+Asia and Pacific,1990,1880.694
+Europe,1990,no data
+North America,1990,18830.47
+South America,1990,2791.738
+Africa (Region),1991,973.911
+Asia and Pacific,1991,2038.38
+Europe,1991,no data
+North America,1991,19291.838
+South America,1991,2813.808
+Africa (Region),1992,946.132
+Asia and Pacific,1992,2151.619
+Europe,1992,13240.859
+North America,1992,20088.555
+South America,1992,2957.19
+Africa (Region),1993,921.085
+Asia and Pacific,1993,2385.483
+Europe,1993,12162.859
+North America,1993,20918.945
+South America,1993,3139.093
+Africa (Region),1994,880.654
+Asia and Pacific,1994,2542.832
+Europe,1994,13067.93
+North America,1994,21835.939
+South America,1994,3674.372
+Africa (Region),1995,1022.837
+Asia and Pacific,1995,2846.261
+Europe,1995,14817.76
+North America,1995,22106.304
+South America,1995,4521.642
+Africa (Region),1996,1114.108
+Asia and Pacific,1996,2736.783
+Europe,1996,15165.296
+North America,1996,23123.812
+South America,1996,4744.876
+Africa (Region),1997,1127.871
+Asia and Pacific,1997,2595.339
+Europe,1997,14209.406
+North America,1997,24384.272
+South America,1997,4968.549
+Africa (Region),1998,1113.742
+Asia and Pacific,1998,2285.972
+Europe,1998,14454.058
+North America,1998,25313.179
+South America,1998,4831.358
+Africa (Region),1999,899.952
+Asia and Pacific,1999,2506.556
+Europe,1999,14366.87
+North America,1999,26696.554
+South America,1999,3841.157
+Africa (Region),2000,900.033
+Asia and Pacific,2000,2649.714
+Europe,2000,13502.763
+North America,2000,28313.075
+South America,2000,3997.145
+Africa (Region),2001,851.028
+Asia and Pacific,2001,2441.665
+Europe,2001,13733.294
+North America,2001,28914.37
+South America,2001,3622.977
+Africa (Region),2002,848.072
+Asia and Pacific,2002,2464.52
+Europe,2002,15012.315
+North America,2002,29516.171
+South America,2002,2814.129
+Africa (Region),2003,998.526
+Asia and Pacific,2003,2717.907
+Europe,2003,18211.264
+North America,2003,30665.7
+South America,2003,2994.05
+Africa (Region),2004,1166.687
+Asia and Pacific,2004,3031.534
+Europe,2004,21133.009
+North America,2004,32548.608
+South America,2004,3571.487
+Africa (Region),2005,1338.903
+Asia and Pacific,2005,3241.294
+Europe,2005,22348.312
+North America,2005,34659.111
+South America,2005,4505.855
+Africa (Region),2006,1506.401
+Asia and Pacific,2006,3433.749
+Europe,2006,24113.4
+North America,2006,36611.408
+South America,2006,5415.043
+Africa (Region),2007,1706.283
+Asia and Pacific,2007,3884.585
+Europe,2007,28054.605
+North America,2007,38198.393
+South America,2007,6658.578
+Africa (Region),2008,1944.195
+Asia and Pacific,2008,4346.149
+Europe,2008,30785.117
+North America,2008,38767.908
+South America,2008,8000.409
+Africa (Region),2009,1799.973
+Asia and Pacific,2009,4423.688
+Europe,2009,26979.191
+North America,2009,36889.969
+South America,2009,7624.044
+Africa (Region),2010,2049.711
+Asia and Pacific,2010,5114.088
+Europe,2010,27387.315
+North America,2010,38646.642
+South America,2010,9664.474
+Africa (Region),2011,2231.654
+Asia and Pacific,2011,5819.97
+Europe,2011,30089.061
+North America,2011,40133.999
+South America,2011,11189.076
+Africa (Region),2012,2319.962
+Asia and Pacific,2012,6115.892
+Europe,2012,28754.144
+North America,2012,41297.208
+South America,2012,11191.542
+Africa (Region),2013,2345.012
+Asia and Pacific,2013,6146.142
+Europe,2013,29910.473
+North America,2013,42387.388
+South America,2013,11028.569
+Africa (Region),2014,2367.651
+Asia and Pacific,2014,6305.679
+Europe,2014,30332.913
+North America,2014,43507.773
+South America,2014,10632.703
+Africa (Region),2015,2107.874
+Asia and Pacific,2015,6194.804
+Europe,2015,25993.331
+North America,2015,43698.887
+South America,2015,8592.036
+Africa (Region),2016,1955.166
+Asia and Pacific,2016,6384.543
+Europe,2016,25945.988
+North America,2016,44099.57
+South America,2016,8268.119
+Africa (Region),2017,1914.331
+Asia and Pacific,2017,6777.14
+Europe,2017,27562.32
+North America,2017,45774.329
+South America,2017,9279.369
+Africa (Region),2018,1999.217
+Asia and Pacific,2018,7207.882
+Europe,2018,29702.606
+North America,2018,47876.426
+South America,2018,8697.652
+Africa (Region),2019,1998.552
+Asia and Pacific,2019,7327.872
+Europe,2019,29286.329
+North America,2019,49406.255
+South America,2019,8208.753
+Africa (Region),2020,1885.328
+Asia and Pacific,2020,7295.637
+Europe,2020,28314.039
+North America,2020,47785.377
+South America,2020,6687.082
+Africa (Region),2021,2059.338
+Asia and Pacific,2021,8329.406
+Europe,2021,32228.364
+North America,2021,53105.969
+South America,2021,7654.63
+Africa (Region),2022,2177.093
+Asia and Pacific,2022,8322.575
+Europe,2022,32319.41
+North America,2022,57617.694
+South America,2022,8781.194
+Africa (Region),2023,2139.952
+Asia and Pacific,2023,8792.752
+Europe,2023,33999.912
+North America,2023,60306.362
+South America,2023,9314.199
+Africa (Region),2024,2192.967
+Asia and Pacific,2024,9324.33
+Europe,2024,35379.419
+North America,2024,61896.306
+South America,2024,9669.079
+Africa (Region),2025,2305.724
+Asia and Pacific,2025,9896.908
+Europe,2025,36800.753
+North America,2025,63747.791
+South America,2025,9978.449
+Africa (Region),2026,2417.041
+Asia and Pacific,2026,10497.948
+Europe,2026,38155.7
+North America,2026,65797.118
+South America,2026,10362.045
+Africa (Region),2027,2535.384
+Asia and Pacific,2027,11114.74
+Europe,2027,39400.879
+North America,2027,67932.895
+South America,2027,10753.553
+Africa (Region),2028,2669.479
+Asia and Pacific,2028,11790.022
+Europe,2028,40550.449
+North America,2028,70191.01
+South America,2028,11164.553
