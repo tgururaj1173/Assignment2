@@ -1,4 +1,4 @@
-Country,Code,Year,Average_Education,Life_Expectancy,GNI_per_capita,GDP_per_capita,Normalised_Average_Education,Normalised_Life_Expectancy
+Country,Code,Year,Average_Education,Life_Expectancy,GNI per capita,GDP per capita,Normalised Average Years of School,Normalised Life Expectancy
 Albania,ALB,2015,9.99,78.6441,12018.466,3953.611,9990,7864.41
 Albania,ALB,2000,9.93,75.4043,6066.2896,1127.64,9930,7540.43
 Albania,ALB,2005,10.24,76.6208,8199.473,2673.773,10240,7662.08
