@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Multiple Visualisations | An Example</title>
+    <title>Human Development</title>
     <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
 
     <!-- CSS file -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
 
 </head>
@@ -24,17 +24,119 @@
 <body>
 
     <div class="page">
-            <h2>Look How Far We Have Come</h2>
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <center>
+                    <h1>Look How Far We Have Come</h1>
+                    <i>An Analysis of Global Human Development</i>
+                </center>
+            </div>
             <!-- pure grid group -->
             <div class="pure-g">
-                <div class="pure-u-1-1">
-                    <div id="vis1" class="vis-container"></div>
-                    <div id="vis2" class="vis-container"></div>
+                <div class="pure-u-1-2">
+                    <div class="left-text-container">
+                        <h3> Development </h3>
+                        <p>
+                            In order to explore human development and their aspects, we need to identify its definition 
+                            within the scope of our exploration and what consititutes human development. The diagram presented
+                            on the right provides a breakdown of the term Development by displaying parts that make up its whole.
+                        </p>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div id="vis6" class="right-vis-container"></div>
                 </div>
             </div>
             <!-- end pure grid group -->
-            <br>
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-2">
+                    <div id="vis1" class="vis-container"></div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div class="right-text-container">
+                        <h3> Human Development Index </h3>
+                        <p>
+                            Human Development Index (HDI) is a normalised measure of a nation's development.
+                            These values are obtained by using a function which considers factors including
+                            health, education and economic factors such as Gross Domestic Product (GDP) and Gross National Income (GNI).
+                            The map shown displays the 
+                            HDI values for each country. This statistic can provide valuable insights into 
+                            the level of development, allowing for policies or funding to be provided to 
+                            developing or less developed nations.
+                        </p>
+                        <p>
+                            These values display the United Nations Development
+                            Program's thresholds for development, which are classified using the 3 step colour legend. 
+                            The colour scale represents first world countries with a darker colour and third world countries
+                            with a lighter shade
+                        </p>
 
+                    </div>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+            <!-- pure grid group -->            
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <h3>Economic Wellbeing</h3>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-2">
+                    <div id="vis3" class="left-vis-container"></div>
+                    <div class="bottom-left-text-container">
+                        The radial chart shown above displays information regarding each continent's contribution
+                        towards GDP for the world. From the vizualisation we can see that North America has
+                        the highest GDP per capita compared to other countries.
+                        
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div id="vis2" class="right-vis-container"></div>
+                    <div class="bottom-text-container">
+                        This line chart displays GDP per capita data over time for all countries. 
+                        Note that values that are shown after 2021 are projected values.
+                        <i>To view the GDP per capita 
+                        for each region of interest, relative to the average global GDP, select the region of interest from the 
+                        drop down box.</i>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- pure grid group -->            
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <h3>Contributions of Each Component</h3>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-2">
+                    <div id="vis4" class="vis-container"></div>
+                    <div class="bottom-left-text-container">
+                        The bubble chart shows the relationship between Human Development Index, GDP per capita and the Happy Planet Index (HPI)
+                        which is used as a measure of how happy a nation is. from this Vizualisation, it can be observed that more developed
+                        countries tend to be happier and have a greater GDP per capita.
+                        <i>Select Continent of interest from the dropdown menu to filter by continent</i>
+                    </div>
+                </div>
+                <div class="pure-u-1-2">
+                    <div id="vis5" class="vis-container"></div>
+                    <div class="bottom-text-container">
+                        This area chart shows the general trends of all the components that make HDI. Gross National
+                            Income (GNI) is a standardised measure of income which reflects a nations standard of living.
+                            From observing the World data we can see that there is a gradual increase in all
+                            components overtime, indicating that the overall HDI of the planet has increased.
+                            <i>Select country of interest from the dropdown menu to filter by country</i>
+                        
+                    </div>
+                </div>
+            </div>    
+            
             <hr class="hr3">
 
     </div>
@@ -42,11 +144,23 @@
 
     <script type="text/javascript">
         var specVis1 = "map.vg.json";
-        vegaEmbed('#vis1', specVis1);
+        vegaEmbed('#vis1', specVis1, {"actions": false});
 
         var specVis2 = "gdp.vg.json";
-        vegaEmbed('#vis2', specVis2);
-        print(brush)
+        vegaEmbed('#vis2', specVis2, {"actions": false});
+
+        var specVis3 = "radial_gdp.vg.json";
+        vegaEmbed('#vis3', specVis3, {"actions": false});
+
+        var specVis4 = "bubble_chart.vg.json";
+        vegaEmbed('#vis4', specVis4, {"actions": false});
+
+        var specVis5 = "steam_graph.vg.json";
+        vegaEmbed('#vis5', specVis5, {"actions": false});
+
+        var specVis6 = "sankey_chart.vg.json";
+        vegaEmbed('#vis6', specVis6, {"actions": false});
+        
     </script>
 </body>
 
